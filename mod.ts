@@ -26,8 +26,7 @@ const denoCmd = new CLI.ValueCommand(
   {
     name: "FileName",
     optional: false,
-    help:
-      "The name of the file the is to be processed.",
+    help: "The name of the file the is to be processed.",
   },
   (
     _: CLI.Definition,
