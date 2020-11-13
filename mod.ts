@@ -1,6 +1,6 @@
 import * as CLI from "https://raw.githubusercontent.com/littlelanguages/deno-lib-console-cli/0.1.2/mod.ts";
 
-import { denoCommand } from "https://raw.githubusercontent.com/littlelanguages/parspiler-tool-deno/0.0.3/mod.ts";
+import { denoCommand } from "https://raw.githubusercontent.com/littlelanguages/parspiler-tool-deno/0.0.4/mod.ts";
 import { command as kotlinCommand } from "https://raw.githubusercontent.com/littlelanguages/parspiler-tool-kotlin/0.0.3/mod.ts";
 
 const denoCmd = new CLI.ValueCommand(
